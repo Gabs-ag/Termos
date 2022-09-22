@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar input {
     background: #272A33;
     border: none;
@@ -33,8 +37,8 @@ body {
     font-weight: 600;
 }
 
-.carousel-cell :hover{
-   color: #8B90A0;
+.carousel-cell :hover {
+    color: #8B90A0;
 }
 
 .flickity-page-dots,
@@ -48,7 +52,7 @@ body {
 }
 
 
-.links{
+.links {
     text-decoration: none;
     color: #E3E3E3;
 }
@@ -88,6 +92,11 @@ body {
     margin-top: 100px;
 }
 
+.section-style{
+    margin-top: 130px;
+}
+
+
 .section-style .number p {
     background-color: #202020;
     border-radius: 50%;
@@ -121,18 +130,133 @@ body {
     margin-top: 10px;
 }
 
-footer h1 {
+footer a h1 {
     color: white;
     font-size: 20px;
+    text-decoration: none !important;
 }
+
 
 footer .policy a {
     text-decoration: none;
     color: #8B90A0;
+}
 
+.social-media {
+    float: right;
+}
+
+.back-top {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:#524e4e;
+    position:fixed;
+    bottom:40px;
+    right:25px;
+    display:none;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    transition: 0.1s;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(12.5px);
+    padding: 20px 0px;
+    z-index: 1;
+    left: 0;
+    margin-top: 0 !important;
 
 }
 
-footer .policy {
-    margin: 50px 0px;
+
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .navbar img {
+        margin-bottom: 40px;
+    }
+
+    .navbar input {
+        width: 100%;
+    }
+
+    .carousel-cell {
+        width: 50%;
+        font-weight: 700;
+    }
+
+    .carousel-cell a:hover {
+        color: black;
+    }
+
+    .carousel-cell:hover {
+        background-color: white;
+    }
+
+    .social-media {
+        display: none !important;
+    }
+
+    .title h1 {
+        font-size: 35px;
+    }
+
+    .navbar span img {
+        display: none;
+    }
+
+    .flickity-slider {
+        margin-left: -85px;
+    }
+
+    .sub-info img {
+        position: absolute;
+        margin-left: -14px;
+        margin-top: -80px;
+
+    }
+
+    .sub-info h1 {
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        margin-left: -30px;
+        margin-bottom: 20px;
+    }
+
+    .card-info .card {
+        margin-bottom: 40px;
+    }
+
+    .col-md-5 {
+        margin: 20px 0px;
+    }
+
+    .align {
+        margin-top: -50px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        backdrop-filter: blur(12.5px);
+        padding: 20px 0px;
+        z-index: 1;
+        left: 0;
+        margin-top: 0 !important;
+
+    }
+
+
+
 }

@@ -12,6 +12,11 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <script src="https://kit.fontawesome.com/e99973526a.js" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,24 +28,27 @@
     <div class="container">
         <section>
             <div class="navbar mt-5">
-                <img src="assets/header/logo.png" alt="">
+                <a href="https://creators.llc/" target="_blank"><img src="./assets/header/logo.png" alt="logo Creators"></a>
 
-                <input type="search" placeholder="Buscar"> <span><img src="assets/header/search.png" alt=""></span>
+                <span><img src="./assets/header/search.png" alt=""></span><input type="text" placeholder="Buscar"> 
+
             </div>
-            <div class="slider-navbar mt-5">
-                <div class="carousel" data-flickity='{ "groupCells": true }'>
-                    <div class="carousel-cell links"> <a class="links" href="#Bem vindo">Bem-vindo</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#termos">Termos e definições </a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Objeto">Plataforma</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Cadastro">Acesso</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Sigilo">Politica de dados</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Remuneração">remuneração</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Transações">Transações</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#confidencialidade">confidencialidades</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Propiedade">Propiedade intelectual</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Anticorrupção">Anticorrupção</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Cancelamento">Cancelamento</a></div>
-                    <div class="carousel-cell links"> <a class="links" href="#Conciderações">Conciderações gerais</a></div>
+            <div class="back-top"><i class="fa-solid fa-arrow-up"></i></div>  
+            <div class="slider-navbar mt-5" id="navbar" >
+                <div class="carousel"  data-flickity='{ "groupCells": true }'>
+                    <div class=" active carousel-cell links"> <a class="links" href="javascript:void(0)">Bem-vindo</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Termos e definições </a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Plataforma</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Acesso</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Política de dados</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Remuneração</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Transações</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Confidencialidades</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Propriedade intelectual</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Anticorrupção</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Cancelamento</a></div>
+                    <div class="carousel-cell links"> <a class="links" href="">Considerações gerais</a>
+                    </div>
                 </div>
             </div>
 
@@ -51,7 +59,7 @@
             <div class="row">
                 <div class="col-md-5 d-flex sub-info" id="bem-vindo">
                     <div class="mx-3">
-                        <img src="assets/header/hand.png" alt="Imagem de uma mão">
+                        <img src="./assets/header/hand.png" alt="Imagem de uma mão">
                     </div>
                     <div>
                         <h1>
@@ -82,7 +90,7 @@
         </section>
         <section class="section-style" id="termos">
             <div class="row">
-                <div class="col-md-5 d-flex">
+                <div class="col-md-5 d-flex align">
                     <div class="number">
                         <p>01</p>
                     </div>
@@ -437,8 +445,6 @@
                             </p>
                         </div>
                     </div>
-
-
                     <div class="info-terms-card">
                         <div class="first-p">
                             <p>
@@ -453,7 +459,7 @@
                             </p>
                         </div>
                     </div>
-
+                </div>
 
                 </div>
         </section>
@@ -1294,30 +1300,29 @@
 
     <div class="horizontal-line-footer"></div>
 
-    <section>
+    <section class="footer">
         <div class="container">
-            <footer>
-                <div class="row">
-                    <div class="d-flex mt-5">
-                        <div class="col-md-6">
-                            <img src="assets/footer/logo_footer.png" alt="logo da Creators (rodapé)">
-                            <h1>POWERFUL INFLUENCE <br> MARKETING PLATFORM</h1>
-                            <div class="policy">
-                                <a href="mailto:hello@creators.llc" target="_blank">hello@creators.llc</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="social-media d-flex justify-content-end">
-                                <div class="mx-2"><a href="https://www.instagram.com/creators.llc/"><img src="assets/footer/instagram.png" alt=""></a></div>
-                                <div class="mx-2"><a href="https://www.linkedin.com/company/creators-llc/mycompany/"><img src="assets/footer/linkedin.png" alt=""></a></div>
-                                <div class="mx-2"><a href="https://www.facebook.com/creators.llc"><img src="assets/footer/facebook.png" alt=""></a></div>
-                            </div>
-                        </div>
+            <footer class="d-flex p-5">
+                <div class="col-md-6">
+                    <a style="text-decoration: none" href="https://creators.llc/" target="_blank"><img src="./assets/footer/logo_footer.png" alt="logo da Creators (rodapé)">
+                        <h1 >POWERFUL INFLUENCE <br> MARKETING PLATFORM</h1></a>
+                    <div class="policy">
+                        <a href="mailto:hello@creators.llc" target="_blank">hello@creators.llc</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-media d-flex">
+                        <div class="mx-2"><a href="https://www.instagram.com/creators.llc/" target="_blank"><img
+                                    src="./assets/footer/instagram.png" alt=""></a></div>
+                        <div class="mx-2"><a href="https://www.linkedin.com/company/creators-llc/mycompany/" target="_blank"><img
+                                    src="./assets/footer/linkedin.png" alt=""></a></div>
+                        <div class="mx-2"><a href="https://www.facebook.com/creators.llc" target="_blank"><img
+                                    src="./assets/footer/facebook.png" alt=""></a></div>
                     </div>
                 </div>
             </footer>
         </div>
     </section>
+<script src="all.js"></script>
 </body>
-
 </html>
