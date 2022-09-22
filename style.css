@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+
+.navbar input {
+    background: #272A33;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+.navbar span {
+    position: absolute;
+    right: 0;
+    margin-right: 230px;
+    margin-top: -6px
+}
+
+.navbar span img {
+    width: 20px;
+}
+
+.carousel-cell {
+    width: 15%;
+    height: 35px;
+    margin-right: 10px;
+    background: #202020;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+.carousel-cell :hover{
+   color: #8B90A0;
+}
+
+.flickity-page-dots,
+.flickity-prev-next-button.previous,
+.flickity-prev-next-button.next {
+    display: none;
+}
+
+.carousel-cell:before {
+    display: block;
+}
+
+
+.links{
+    text-decoration: none;
+    color: #E3E3E3;
+}
+
+.title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.sub-info h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.card-info .card {
+    background-color: #E3E3E3;
+    padding: 40px 50px;
+    border-radius: 16px;
+    margin-bottom: 100px
+}
+
+.card-info .card p {
+    color: black;
+    font-weight: 600;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid #202020;
+    margin-bottom: 100px;
+}
+
+.horizontal-line-footer {
+    border-bottom: 1px solid #202020;
+    margin-top: 100px;
+}
+
+.section-style .number p {
+    background-color: #202020;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+.section-style .subtitle {
+    color: white;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.info-terms-card {
+    background-color: #202020;
+    border-radius: 16px;
+    color: white;
+    padding: 30px 50px;
+}
+
+.info-terms-card {
+    margin-top: 10px;
+}
+
+footer h1 {
+    color: white;
+    font-size: 20px;
+}
+
+footer .policy a {
+    text-decoration: none;
+    color: #8B90A0;
+
+
+}
+
+footer .policy {
+    margin: 50px 0px;
+}
