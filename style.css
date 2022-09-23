@@ -6,6 +6,12 @@ html {
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: #524e4e;
+}
+
+
 .navbar input {
     background: #272A33;
     border: none;
