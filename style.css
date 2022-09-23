@@ -43,8 +43,12 @@ a{
     font-weight: 600;
 }
 
-.carousel-cell :hover {
-    color: #8B90A0;
+.carousel-cell a:hover {
+    color: black;
+}
+
+.carousel-cell:hover {
+    background-color: white;
 }
 
 .flickity-page-dots,
