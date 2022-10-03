@@ -53,9 +53,12 @@ a{
 }
 
 .flickity-page-dots,
-.flickity-prev-next-button.previous,
-.flickity-prev-next-button.next {
+.flickity-prev-next-button.previous {
     display: none;
+}
+
+.flickity-prev-next-button.next {
+    right: -15px;
 }
 
 .carousel-cell:before {
