@@ -49,6 +49,7 @@ a{
 
 .carousel-cell:hover {
     background-color: white;
+    color: #202020;
 }
 
 .flickity-page-dots,
@@ -176,11 +177,11 @@ footer .policy a {
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 85%;
     backdrop-filter: blur(12.5px);
-    padding: 20px 0px;
+    padding: 20px 29px;
     z-index: 1;
-    left: 0;
+    left: 2;
     margin-top: 0 !important;
 
 }
