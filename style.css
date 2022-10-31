@@ -59,10 +59,14 @@ a{
 
 .flickity-prev-next-button.previous{
     left: -15px;
+    width: 40px;
+    height: 40px;
 }
 
 .flickity-prev-next-button.next {
     right: -15px;
+    width: 40px;
+    height: 40px;
 }
 
 .carousel-cell:before {
