@@ -8,8 +8,9 @@ html {
 
 a{
     text-decoration: none;
-    color: #575757;
+    color: #e4e4e4 ;
 }
+
 
 
 .navbar input {
@@ -17,7 +18,7 @@ a{
     border: none;
     padding: 10px 40px;
     border-radius: 12px;
-    color: aliceblue;
+    color: aliceblue !important;
 }
 
 .navbar span {
@@ -49,7 +50,7 @@ a{
 
 .carousel-cell:hover {
     background-color: white;
-    color: #202020;
+    color: #202020 !important;
 }
 
 .flickity-page-dots
