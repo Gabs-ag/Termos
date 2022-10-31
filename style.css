@@ -52,9 +52,13 @@ a{
     color: #202020;
 }
 
-.flickity-page-dots,
-.flickity-prev-next-button.previous {
+.flickity-page-dots
+ {
     display: none;
+}
+
+.flickity-prev-next-button.previous{
+    left: -15px;
 }
 
 .flickity-prev-next-button.next {
@@ -88,7 +92,6 @@ a{
     background-color: #E3E3E3;
     padding: 40px 50px;
     border-radius: 16px;
-    margin-bottom: 100px
 }
 
 .card-info .card p {
@@ -99,6 +102,7 @@ a{
 .horizontal-line {
     border-bottom: 1px solid #202020;
     margin-bottom: 100px;
+    padding-top: 25px;
 }
 
 .horizontal-line-footer {
