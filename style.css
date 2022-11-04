@@ -6,9 +6,71 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "SF Pro Display Bold";
+    src: url("./fonts/SF-Pro-Display-Bold.OTF") format("opentype"); 
+    }
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("./fonts/SF-Pro-Display-Medium.OTF") format("opentype"); 
+}
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("./fonts/SF-Pro-Display-Regular.OTF") format("opentype"); 
+}
+  
+
 a{
     text-decoration: none;
     color: #e4e4e4 ;
+}
+
+header .menu {
+    padding: 50px 0 80px; 
+}
+header .navbar-expand-lg .navbar-collapse {
+    justify-content: end; 
+}
+
+header .navbar-expand-lg .navbar-collapse .nav-item {
+      text-align: center; 
+}
+
+header .navbar-expand-lg .navbar-collapse .nav-item a {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.5px;
+    font-family: 'SF Pro Display Bold';
+    color: #FFF; 
+}
+header .navbar-expand-lg .navbar-collapse .nav-item a:first-child {
+        margin-right: 24px; 
+}
+header .navbar-expand-lg .navbar-collapse .btn-area {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+header .navbar-expand-lg .navbar-collapse .btn {
+    background: #3E465F;
+    border-radius: 10px;
+    padding: 13px 18px;
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF; 
+}
+header .navbar-expand-lg .navbar-collapse .btn.purple {
+    background: #7553E2;
+    border-radius: 10px;
+    min-width: 89px; 
+}
+header h2 {
+    font-size: 22px;
+    line-height: 130%;
+    width: 40%; 
 }
 
 
@@ -198,14 +260,85 @@ footer .policy a {
 
 }
 
+@media only screen and (max-width: 820px) {
+    header {
+        padding: 40px 0; 
+    }
+    header .menu {
+        padding: 0 0 80px; 
+    }
+    header .menu button.navbar-toggler {
+        background: linear-gradient(284.09deg, #9757FF -1.11%, #3300FF 193.48%);
+        border: none;
+        border-radius: 50%;
+        padding: 10px; 
+        width: 50px;
+        height: 50px;
+    }
+    header .menu button.navbar-toggler .navbar-toggler-icon {
+        filter: invert(1); 
+    }
+    header .navbar-expand-lg .navbar-collapse {
+        padding: 20px 0 0; 
+    }
+    header .navbar-expand-lg .navbar-collapse .nav-item a {
+        font-size: 24px;
+        line-height: 16px;
+        text-align: right; 
+    }
+    header .navbar-expand-lg .navbar-collapse .nav-item a:first-child {
+        margin-right: 0;
+        padding: 18px 8px 18px 0;
+     }
+    header .navbar-expand-lg .navbar-collapse .btn-area {
+        display: grid;
+        float: right; 
+    }
+
+    header .navbar-expand-lg .navbar-collapse .btn-area .btn {
+        background: transparent;
+        text-align: right;
+        padding: 18px 8px 18px 0;
+        margin-right: 0;
+        font-size: 24px;
+        line-height: 16px; 
+    }
+    header .navbar-expand-lg .navbar-collapse .btn-area .btn.purple {
+        background: #7553E2;
+        text-align: center;
+        margin-top: 18px; 
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     body {
         overflow-x: hidden !important;
     }
 
-    .navbar img {
-        margin-bottom: 40px;
+    header {
+        padding: 0; 
+    }
+    header .menu {
+        background: rgba(15, 15, 15, 0.7);
+        backdrop-filter: blur(12.5px);
+        position: fixed;
+        top: 0;
+        padding: 18px;
+        z-index: 10;
+        width: 100%; 
+    }
+    header .menu .container {
+        padding: 0; 
+    }
+    header .menu .navbar-collapse.show {
+        height: 100vh; 
+    }
+    header h1 {
+        margin-top: 120px; 
+    }
+    header h2 {
+        display: none; 
     }
 
     .navbar input {

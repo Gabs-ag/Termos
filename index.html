@@ -24,15 +24,39 @@
 </head>
 
 <body>
-    <div class="container">
-        <section>
-            <div class="navbar mt-5">
-                <a href="https://creators.llc/" target="_blank"><img src="./assets/header/logo.svg"
-                        alt="logo Creators"></a>
+    <header>
+        <nav class="navbar navbar-expand-lg menu">
+            <div class="container">
+              <a class="navbar-brand" href="https://creators.llc/" target="_blank">
+                <img class="d-none d-md-block" src="./assets/header/logo.svg" alt="creators logo">
+                <img class="d-md-none d-block" src="./assets/header/short-logo_creators.svg" alt="creators logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-icon" src="./assets/header/toggler-icon.svg" alt="menu">
+              </button>
 
-                <!-- <span><img src="./assets/header/search.png" alt=""></span><input type="text" placeholder="Buscar">  -->
+              <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav col-xl-4">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://creators.llc/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://creators.llc/calculadora/" target="_blank">Calculadora</a>
+                  </li>
+                </ul>
+
+                <div class="btn-area col-xl-5">
+                    <a class="btn" href="https://creators.llc/?newcreator=1" target="_blank">Contrate Creators</a>
+                    <a class="btn" href="https://creators.llc/?newclient=1" target="_blank">Seja Creators</a>
+                    <a class="btn purple" href="https://creators.llc/?openlogin=true" target="_blank">Login</a>
+                  </div>
+              </div>
 
             </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
             <div class="back-top"><i class="fa-solid fa-arrow-up"></i></div>
             <div class="slider-navbar mt-5" id="navbar">
                 <div class="carousel" data-flickity='{ "groupCells": true }'>
