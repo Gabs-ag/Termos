@@ -308,6 +308,10 @@ footer .policy a {
         text-align: center;
         margin-top: 18px; 
     }
+
+    #navbar {
+        padding: 100px 0 0;
+    }
 }
 
 
@@ -320,7 +324,6 @@ footer .policy a {
         padding: 0; 
     }
     header .menu {
-        background: rgba(15, 15, 15, 0.7);
         backdrop-filter: blur(12.5px);
         position: fixed;
         top: 0;
