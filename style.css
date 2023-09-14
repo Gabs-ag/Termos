@@ -216,20 +216,105 @@ header h2 {
     margin-top: 10px;
 }
 
-footer a h1 {
-    color: white;
-    font-size: 20px;
-    text-decoration: none !important;
+footer {
+    margin-top: 140px;
+    border-top: 1px solid #3E465F; }
+footer .row {
+    padding: 60px 0;
+    align-items: baseline; 
 }
-
-
-footer .policy a {
-    text-decoration: none;
+footer h3 {
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.3em;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+footer h4 {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700; 
+}
+footer .logo {
+    max-width: 205px; 
+}
+footer ul {
+    list-style: none;
+    padding-left: 0; 
+}
+footer ul li {
+    padding-top: 10px; 
+}
+footer ul li a {
     color: #8B90A0;
+    font-size: 16px; 
 }
-
-.social-media {
-    float: right;
+footer ul li a:hover {
+    color: #fff;
+    font-weight: 700; 
+}
+footer .list-terms a {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #8B90A0;
+    margin: 0 40px 0 0; 
+}
+footer .social-media {
+    display: flex; 
+}
+footer .social-media a img {
+    padding-right: 5px; 
+}
+footer #rdstation-bricks-embeddable-form-bricks-component-1ABMwOA55ETO_N3vLfGmTQ .bricks-form {
+    padding: 0; 
+}
+footer #rd-column-lhjemie0 > div {
+    padding: 0;
+    background: #000; 
+}
+footer #conversion-form-formulario-do-blog {
+    display: flex !important;
+    align-items: center;
+    background-color: #272a33;
+    border-radius: 16px;
+    height: 50px;
+    max-width: 250px; 
+}
+footer #rd-form-lhjemie1 .bricks-form__input:not(textarea) {
+    margin-top: 10px;
+}
+    footer #rd-form-lhjemie1 .bricks-form__input:not(textarea):focus {
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0; 
+}
+footer #rdstation-bricks-embeddable-form-bricks-component-1ABMwOA55ETO_N3vLfGmTQ .bricks-form__input.error {
+    margin-top: 25px;
+    border: none; 
+}
+footer #rd-form-lhjemie1 .bricks-form__submit {
+    width: 50px; 
+}
+footer #rd-button-lhjemie4 {
+    margin-top: 0;
+    background: transparent;
+    border: 0;
+    font-size: 0; 
+}
+    footer #rd-button-lhjemie4::before {
+    content: '';
+    background: url("assets/footer/right-arrow.png");
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
 
 .back-top {
